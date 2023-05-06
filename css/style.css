@@ -160,6 +160,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .main-header {
@@ -206,6 +207,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   border: none;
+  height: 56px;
 }
 
 .btn-order:hover,
@@ -218,7 +220,7 @@ img {
 .description-list {
   display: flex;
   align-items: center;
-  gap: 34px;
+  gap: 24px;
 }
 
 .information {
@@ -236,16 +238,16 @@ img {
   margin-bottom: 8px;
 }
 
+.description-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .description-text,
 .profession {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.description-item {
-width: calc((100% - 72px) / 4); 
 }
 
 /* -------СЕКЦІЯ 3------- */
