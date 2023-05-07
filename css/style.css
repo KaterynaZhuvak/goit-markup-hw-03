@@ -130,6 +130,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding: 24px 0;
 }
 
 .contact-adress:hover,
@@ -164,7 +165,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .main-header {
@@ -353,7 +353,7 @@ img {
   padding: 32px 16px;
 }
 
-.pictures-item {
+.pictures-link {
   width: calc((100% - 48px) / 3);
 }
 
@@ -404,6 +404,7 @@ img {
   text-transform: uppercase;
   color: var(--accent-color);
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-first-part-footer {
